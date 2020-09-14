@@ -1,0 +1,81 @@
+[ {
+  "uid" : "2bbfc8213bfa89f2",
+  "name" : "Measure area, linear distance and location",
+  "time" : {
+    "start" : 1599853732092,
+    "stop" : 1599853806984,
+    "duration" : 74892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22752cf84e9ae2bd",
+  "name" : "Should verify different components of the basemap",
+  "time" : {
+    "start" : 1599853283446,
+    "stop" : 1599853358349,
+    "duration" : 74903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1e749f080d40473",
+  "name" : "Should verify legend layer Work Order Points",
+  "time" : {
+    "start" : 1599853589512,
+    "stop" : 1599853595549,
+    "duration" : 6037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e08bf213d4e8d9ac",
+  "name" : "Should display a new pdf tab for print",
+  "time" : {
+    "start" : 1599854353380,
+    "stop" : 1599854389050,
+    "duration" : 35670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bb202978a7ecc29",
+  "name" : "Login to testfieldbook",
+  "time" : {
+    "start" : 1599853662302,
+    "stop" : 1599853676004,
+    "duration" : 13702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cadccce4722ef51",
+  "name" : "Should feature search and reverse geocode search",
+  "time" : {
+    "start" : 1599853952615,
+    "stop" : 1599853977171,
+    "duration" : 24556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c170d3e335d21e",
+  "name" : "Should verify Google streetview",
+  "time" : {
+    "start" : 1599854082476,
+    "stop" : 1599854115407,
+    "duration" : 32931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8f492d6e3e9cfa1",
+  "name" : "Identify functionality for division locations",
+  "time" : {
+    "start" : 1599853497830,
+    "stop" : 1599853536413,
+    "duration" : 38583
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

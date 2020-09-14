@@ -1,0 +1,154 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "22752cf84e9ae2bd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853283446,
+        "stop" : 1599853358349,
+        "duration" : 74903
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should display a new pdf tab for print",
+      "uid" : "e08bf213d4e8d9ac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599854353380,
+        "stop" : 1599854389050,
+        "duration" : 35670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "Measure area, linear distance and location",
+      "uid" : "2bbfc8213bfa89f2",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853732092,
+        "stop" : 1599853806984,
+        "duration" : 74892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "Should feature search and reverse geocode search",
+      "uid" : "cadccce4722ef51",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853952615,
+        "stop" : 1599853977171,
+        "duration" : 24556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
+  }, {
+    "name" : "0-7",
+    "children" : [ {
+      "name" : "Should verify Google streetview",
+      "uid" : "3c170d3e335d21e",
+      "parentUid" : "21aceb05e3618121b78af6a48c646d54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599854082476,
+        "stop" : 1599854115407,
+        "duration" : 32931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "21aceb05e3618121b78af6a48c646d54"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Identify functionality for division locations",
+      "uid" : "b8f492d6e3e9cfa1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853497830,
+        "stop" : 1599853536413,
+        "duration" : 38583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "f1e749f080d40473",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853589512,
+        "stop" : 1599853595549,
+        "duration" : 6037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "Login to testfieldbook",
+      "uid" : "8bb202978a7ecc29",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853662302,
+        "stop" : 1599853676004,
+        "duration" : 13702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-5",
+    "children" : [ {
+      "name" : "Should display a new pdf tab for print",
+      "uid" : "95341d0095bee045",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1599853865153,
+        "stop" : 1599853891544,
+        "duration" : 26391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
+  } ],
+  "name" : "timeline"
+}

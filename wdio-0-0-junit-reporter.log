@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Validate_SJG_project_card_selected" timestamp="2020-07-24T00:17:51" time="5.392" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Validate SJG project card selected"/>
+      <property name="capabilities" value="chrome.84_0_4147_89.windows"/>
+      <property name="file" value=".\test\Login.test.js"/>
+    </properties>
+    <testcase classname="chrome.84_0_4147_89.windows.Validate_SJG_project_card_selected" name="Login_to_testfieldbook" time="5.38">
+      <error message="browser.saveFullPageScreen is not a function"/>
+      <system-out>
+        <![CDATA[
+COMMAND: GET /session/0f6d102855f2db903f90eb09796362f3/title - {}
+RESULT: {}
+COMMAND: GET /session/0f6d102855f2db903f90eb09796362f3/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/0f6d102855f2db903f90eb09796362f3 - {}
+RESULT: {}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+TypeError: browser.saveFullPageScreen is not a function
+    at Context.<anonymous> (C:\Users\Alok's\Documents\WebDriverIO\test\Login.test.js:9:17)
+    at Context.executeSync (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+    at C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

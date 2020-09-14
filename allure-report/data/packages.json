@@ -1,0 +1,141 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Verifying basemap components",
+    "children" : [ {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "22752cf84e9ae2bd",
+      "parentUid" : "a794acf09a3482bb36498f051470a083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853283446,
+        "stop" : 1599853358349,
+        "duration" : 74903
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a794acf09a3482bb36498f051470a083"
+  }, {
+    "name" : "Verifying identify functionality",
+    "children" : [ {
+      "name" : "Identify functionality for division locations",
+      "uid" : "b8f492d6e3e9cfa1",
+      "parentUid" : "6e37c09f034ecc7f0c78becaa81ef4de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853497830,
+        "stop" : 1599853536413,
+        "duration" : 38583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6e37c09f034ecc7f0c78becaa81ef4de"
+  }, {
+    "name" : "Verifying legend components",
+    "children" : [ {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "f1e749f080d40473",
+      "parentUid" : "bc75f46cc54a180c49afc5a6d9b6c7c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853589512,
+        "stop" : 1599853595549,
+        "duration" : 6037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "bc75f46cc54a180c49afc5a6d9b6c7c4"
+  }, {
+    "name" : "Validate UGI project card selected",
+    "children" : [ {
+      "name" : "Login to testfieldbook",
+      "uid" : "8bb202978a7ecc29",
+      "parentUid" : "b21e4b2a6675f4e7a0addec759608385",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853662302,
+        "stop" : 1599853676004,
+        "duration" : 13702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b21e4b2a6675f4e7a0addec759608385"
+  }, {
+    "name" : "Verifying measure functionality",
+    "children" : [ {
+      "name" : "Measure area, linear distance and location",
+      "uid" : "2bbfc8213bfa89f2",
+      "parentUid" : "3e65815e1c696cf198079fca369238d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853732092,
+        "stop" : 1599853806984,
+        "duration" : 74892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "3e65815e1c696cf198079fca369238d9"
+  }, {
+    "name" : "Verifying feature search and reverse geocode",
+    "children" : [ {
+      "name" : "Should feature search and reverse geocode search",
+      "uid" : "cadccce4722ef51",
+      "parentUid" : "6fc6a3b00e9e6e429ccd35118285a381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853952615,
+        "stop" : 1599853977171,
+        "duration" : 24556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6fc6a3b00e9e6e429ccd35118285a381"
+  }, {
+    "name" : "Verifying Google StreetView",
+    "children" : [ {
+      "name" : "Should verify Google streetview",
+      "uid" : "3c170d3e335d21e",
+      "parentUid" : "373f07f49fb919b52d838013529f7de0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599854082476,
+        "stop" : 1599854115407,
+        "duration" : 32931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "373f07f49fb919b52d838013529f7de0"
+  }, {
+    "name" : "Verifying print functionality",
+    "children" : [ {
+      "name" : "Should display a new pdf tab for print",
+      "uid" : "e08bf213d4e8d9ac",
+      "parentUid" : "c902402f0bbd83a82a6083aa96376a6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599854353380,
+        "stop" : 1599854389050,
+        "duration" : 35670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c902402f0bbd83a82a6083aa96376a6d"
+  } ],
+  "name" : "packages"
+}

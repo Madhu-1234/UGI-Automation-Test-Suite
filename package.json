@@ -1,0 +1,51 @@
+{
+  "name": "sjgtestcases",
+  "version": "1.0.0",
+  "description": "This is south jersey testcases for prod and test env",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test-prod": "./node_modules/.bin/wdio wdio.conf-Prod.js",
+    "allure-report": "allure generate --clean && allure open",
+    "clean": "npm run cleandir",
+    "cleandir": "cleandir allure-results",
+    "generate-html-report": "wdio-junit-to-html -i ./merged-junit-results -o ./merged-junit-results"
+  },
+  "author": "Madhusmita Mishra",
+  "license": "ISC",
+  "devDependencies": {
+    "@rpii/wdio-html-reporter": "^6.0.6",
+    "@wdio/allure-reporter": "^6.1.23",
+    "@wdio/concise-reporter": "^6.4.0",
+    "@wdio/dot-reporter": "^6.3.0",
+    "@wdio/junit-reporter": "^6.4.0",
+    "@wdio/local-runner": "^6.1.20",
+    "@wdio/mocha-framework": "^6.1.19",
+    "@wdio/selenium-standalone-service": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chai": "^4.0.2",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^83.0.0",
+    "junit-viewer": "^4.11.1",
+    "mochawesome": "^6.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "wdio-chromedriver-service": "^6.0.3",
+    "wdio-image-comparison-service": "^1.13.6",
+    "wdio-jira-service": "^0.2.0",
+    "wdio-mochawesome-reporter": "^4.0.0",
+    "webdriverio": "^6.1.20"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.1",
+    "@wdio/cli": "^6.1.20",
+    "allure-commandline": "^2.13.0",
+    "convert-excel-to-json": "^1.7.0",
+    "exceljs": "^4.1.1",
+    "mochawesome-report-generator": "^3.1.5",
+    "netlify-cli": "^2.61.2",
+    "nodemailer": "^6.4.10",
+    "wdio-junit-to-html": "^3.1.2"
+  }
+}

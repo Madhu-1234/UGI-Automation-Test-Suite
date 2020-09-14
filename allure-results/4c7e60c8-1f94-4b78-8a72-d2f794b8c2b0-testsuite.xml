@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1599853497828' stop='1599853536416'>
+    <name>Verifying identify functionality</name>
+    <title>Verifying identify functionality</title>
+    <test-cases>
+        <test-case start='1599853497830' status='passed' stop='1599853536413'>
+            <name>Identify functionality for division locations</name>
+            <title>Identify functionality for division locations</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

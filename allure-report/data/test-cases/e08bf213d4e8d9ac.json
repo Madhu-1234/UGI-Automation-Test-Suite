@@ -1,0 +1,67 @@
+{
+  "uid" : "e08bf213d4e8d9ac",
+  "name" : "Should display a new pdf tab for print",
+  "fullName" : "Verifying print functionality.Should display a new pdf tab for print",
+  "historyId" : "ec90ce4237d86e7c7f509185a75bbe87",
+  "time" : {
+    "start" : 1599854353380,
+    "stop" : 1599854389050,
+    "duration" : 35670
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display a new pdf tab for print"
+  }, {
+    "name" : "package",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95341d0095bee045",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1599853865153,
+        "stop" : 1599853891544,
+        "duration" : 26391
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e08bf213d4e8d9ac.json",
+  "parameterValues" : [ "chrome" ]
+}
