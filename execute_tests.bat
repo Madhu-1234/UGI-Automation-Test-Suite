@@ -1,4 +1,4 @@
-cd C:\Users\Alok's\Documents\UGI Automated testscripts
+
 npm run cleandir & ^
 npm run test & ^
 netlify deploy --dir=allure-report & ^
