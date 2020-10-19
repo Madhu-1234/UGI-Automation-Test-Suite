@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602174029701' stop='1602174176069'>
+    <name>Verifying print functionality</name>
+    <title>Verifying print functionality</title>
+    <test-cases>
+        <test-case start='1602174029703' status='broken' stop='1602174176068'>
+            <name>Should display a new pdf tab for print</name>
+            <title>Should display a new pdf tab for print</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>script timeout
+                  (Session info: chrome=85.0.4183.121)</message>
+                <stack-trace>script timeout
+                  (Session info: chrome=85.0.4183.121)
+                    at getErrorFromResponseBody (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver\build\utils.js:121:10)
+                    at WebDriverRequest._request (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver\build\request.js:149:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Browser.runCommandWithHooks (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Object.&lt;anonymous> (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\helpers\beforeScreenshot.js:75:32)
+                    at step (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\helpers\beforeScreenshot.js:44:23)
+                    at Object.next (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\helpers\beforeScreenshot.js:25:53)
+                    at C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\helpers\beforeScreenshot.js:19:71
+                    at Object.beforeScreenshot [as default] (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\helpers\beforeScreenshot.js:59:12)
+                    at C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\commands\saveFullPageScreen.js:71:58
+                    at step (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\commands\saveFullPageScreen.js:33:23)
+                    at Object.next (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\commands\saveFullPageScreen.js:14:53)
+                    at C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\commands\saveFullPageScreen.js:8:71
+                    at saveFullPageScreen (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver-image-comparison\build\commands\saveFullPageScreen.js:44:12)
+                    at Browser.saveFullPageScreen (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Browser.next [as saveFullPageScreen] (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\utils\build\monad.js:119:27)
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\UGI Automated testscripts\test\print.test.js:14:17)
+                    at Context.executeSync (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

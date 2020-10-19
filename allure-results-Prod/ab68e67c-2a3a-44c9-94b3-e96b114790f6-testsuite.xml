@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602171106563' stop='1602171107695'>
+    <name>Validate UGI project card selected</name>
+    <title>Validate UGI project card selected</title>
+    <test-cases>
+        <test-case start='1602171106563' status='failed' stop='1602171107693'>
+            <name>Login to testfieldbook</name>
+            <title>Login to testfieldbook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'UGI_FB4' to equal 'UGI_FB4-TST'</message>
+                <stack-trace>AssertionError: expected 'UGI_FB4' to equal 'UGI_FB4-TST'
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\UGI Automated testscripts\test\Login.test.js:8:36)
+                    at Context.executeSync (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

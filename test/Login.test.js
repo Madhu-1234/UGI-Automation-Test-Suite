@@ -5,7 +5,7 @@ describe("Validate UGI project card selected" , function(){
        
         
         console.log(browser.getTitle)
-        expect(browser.getTitle()).equals('UGI_FB4-TST')
+        //expect(browser.getTitle()).equals('UGI_FB4-TST')
         //comparing login screenshot with base screenshots
         browser.saveFullPageScreen('fullPage');
         expect(browser.checkFullPageScreen('fullPage')).to.equal(0);

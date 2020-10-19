@@ -4,10 +4,32 @@
     "uid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
     "name" : "Verifying basemap components",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a452b5fc6befbbe2f3ab58a799200869",
+    "name" : "Validate UGI project card selected",
+    "statistic" : {
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "7e10cd9390f7ff384d05e7ba86ebbd7d",
+    "name" : "Verifying print functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
@@ -25,17 +47,6 @@
   }, {
     "uid" : "129208746e123446f08aad9b839d13dc",
     "name" : "Verifying legend components",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "a452b5fc6befbbe2f3ab58a799200869",
-    "name" : "Validate UGI project card selected",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -69,17 +80,6 @@
   }, {
     "uid" : "74ec1f60176fe72496fdc9e349158c0a",
     "name" : "Verifying Google StreetView",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "7e10cd9390f7ff384d05e7ba86ebbd7d",
-    "name" : "Verifying print functionality",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

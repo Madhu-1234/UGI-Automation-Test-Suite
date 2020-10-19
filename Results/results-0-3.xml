@@ -1,59 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Validate_UGI_project_card_selected" timestamp="2020-09-12T01:17:42" time="13.708" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Validate_UGI_project_card_selected" timestamp="2020-10-08T21:01:46" time="1.132" tests="1" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Validate UGI project card selected"/>
-      <property name="capabilities" value="chrome.85_0_4183_102.windows"/>
+      <property name="capabilities" value="chrome.85_0_4183_121.windows"/>
       <property name="file" value=".\test\Login.test.js"/>
     </properties>
-    <testcase classname="chrome.85_0_4183_102.windows.Validate_UGI_project_card_selected" name="Login_to_testfieldbook" time="13.702">
+    <testcase classname="chrome.85_0_4183_121.windows.Validate_UGI_project_card_selected" name="Login_to_testfieldbook" time="1.13">
+      <error message="expected 'UGI_FB4' to equal 'UGI_FB4-TST'"/>
       <system-out>
         <![CDATA[
-COMMAND: GET /session/7d9e0638dfa286ddaa242e8b2b70c53f/title - {}
+COMMAND: GET /session/725ca71d44210df444f85a26b00c6012/title - {}
 RESULT: {}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
-RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
-RESULT: {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
-RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
-COMMAND: GET /session/7d9e0638dfa286ddaa242e8b2b70c53f/screenshot - {}
+COMMAND: GET /session/725ca71d44210df444f85a26b00c6012/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
-RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
-RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
-COMMAND: GET /session/7d9e0638dfa286ddaa242e8b2b70c53f/screenshot - {}
-RESULT: {}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
-RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
-RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
-RESULT: undefined
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
-RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
-RESULT: {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
-RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
-COMMAND: GET /session/7d9e0638dfa286ddaa242e8b2b70c53f/screenshot - {}
-RESULT: {}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
-RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
-RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
-COMMAND: GET /session/7d9e0638dfa286ddaa242e8b2b70c53f/screenshot - {}
-RESULT: {}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
-RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
-COMMAND: POST /session/7d9e0638dfa286ddaa242e8b2b70c53f/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
-RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
-RESULT: undefined
-COMMAND: DELETE /session/7d9e0638dfa286ddaa242e8b2b70c53f - {}
+COMMAND: DELETE /session/725ca71d44210df444f85a26b00c6012 - {}
 RESULT: {}
 ]]>
       </system-out>
+      <system-err>
+        <![CDATA[
+AssertionError: expected 'UGI_FB4' to equal 'UGI_FB4-TST'
+    at Context.<anonymous> (C:\Users\Alok's\Documents\UGI Automated testscripts\test\Login.test.js:8:36)
+    at Context.executeSync (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:56:18)
+    at C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:82:70
+]]>
+      </system-err>
     </testcase>
   </testsuite>
 </testsuites>

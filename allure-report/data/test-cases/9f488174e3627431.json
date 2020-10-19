@@ -1,0 +1,64 @@
+{
+  "uid" : "9f488174e3627431",
+  "name" : "Login to testfieldbook",
+  "fullName" : "Validate UGI project card selected.Login to testfieldbook",
+  "historyId" : "86d79d55ab56b202860827f3053a3f44",
+  "time" : {
+    "start" : 1602171106563,
+    "stop" : 1602171107693,
+    "duration" : 1130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'UGI_FB4' to equal 'UGI_FB4-TST'",
+  "statusTrace" : "AssertionError: expected 'UGI_FB4' to equal 'UGI_FB4-TST'\n                    at Context.<anonymous> (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\test\\Login.test.js:8:36)\n                    at Context.executeSync (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Validate UGI project card selected"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate UGI project card selected"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to testfieldbook"
+  }, {
+    "name" : "package",
+    "value" : "Validate UGI project card selected"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9f488174e3627431.json",
+  "parameterValues" : [ "chrome" ]
+}

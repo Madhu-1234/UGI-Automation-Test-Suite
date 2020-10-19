@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Verifying_print_functionality" timestamp="2020-09-12T01:21:05" time="26.395" tests="1" failures="0" errors="1" skipped="0">
+  <testsuite name="Verifying_print_functionality" timestamp="2020-10-08T21:06:32" time="26.664" tests="1" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Verifying print functionality"/>
-      <property name="capabilities" value="chrome.85_0_4183_102.windows"/>
+      <property name="capabilities" value="chrome.85_0_4183_121.windows"/>
       <property name="file" value=".\test\print.test.js"/>
     </properties>
-    <testcase classname="chrome.85_0_4183_102.windows.Verifying_print_functionality" name="Should_display_a_new_pdf_tab_for_print" time="26.39">
+    <testcase classname="chrome.85_0_4183_121.windows.Verifying_print_functionality" name="Should_display_a_new_pdf_tab_for_print" time="26.661">
       <error message="Malformed type for &quot;handle&quot; parameter of command switchToWindow&#xA;Expected: string&#xA;Actual: undefined&#xA;&#xA;For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window&#xA;"/>
       <system-out>
         <![CDATA[
-COMMAND: POST /session/872097e9e57db28a3fe29fad6433ee99/element - {"using":"xpath","value":"//*[@id=\"dijit_form_ComboButton_0_label\"]"}
+COMMAND: POST /session/8da6ac35767395f93b107f5882fbd4af/element - {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"agsjs_dijit__TOCNode_54\"]/div[1]/span/span[2]"}
-RESULT: {"using":"xpath","value":"//*[@id=\"dijit_form_ComboButton_0_label\"]"}
-COMMAND: POST /session/872097e9e57db28a3fe29fad6433ee99/element/b4cdfb8c-190d-4723-b2b9-cd1bf0c6eb75/click - {}
+RESULT: {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+COMMAND: POST /session/8da6ac35767395f93b107f5882fbd4af/elements - {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+COMMAND: POST /session/8da6ac35767395f93b107f5882fbd4af/elements - {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+COMMAND: POST /session/8da6ac35767395f93b107f5882fbd4af/elements - {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+COMMAND: POST /session/8da6ac35767395f93b107f5882fbd4af/element - {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+COMMAND: POST /session/8da6ac35767395f93b107f5882fbd4af/element/513fe734-447d-4b68-b506-bb2fef69ab12/click - {}
 RESULT: {}
-COMMAND: GET /session/872097e9e57db28a3fe29fad6433ee99/window/handles - {}
+COMMAND: GET /session/8da6ac35767395f93b107f5882fbd4af/window/handles - {}
 RESULT: {}
-COMMAND: GET /session/872097e9e57db28a3fe29fad6433ee99/screenshot - {}
+COMMAND: GET /session/8da6ac35767395f93b107f5882fbd4af/screenshot - {}
 RESULT: {}
-COMMAND: DELETE /session/872097e9e57db28a3fe29fad6433ee99 - {}
+COMMAND: DELETE /session/8da6ac35767395f93b107f5882fbd4af - {}
 RESULT: {}
 ]]>
       </system-out>

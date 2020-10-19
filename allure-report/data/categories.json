@@ -1,5 +1,64 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'UGI_FB4' to equal 'UGI_FB4-TST'",
+      "children" : [ {
+        "name" : "Login to testfieldbook",
+        "uid" : "9f488174e3627431",
+        "parentUid" : "4a8a568e202b68a48d61df84577c293b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602171106563,
+          "stop" : 1602171107693,
+          "duration" : 1130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "4a8a568e202b68a48d61df84577c293b"
+    }, {
+      "name" : "expected 1.29 to equal 0",
+      "children" : [ {
+        "name" : "Should verify different components of the basemap",
+        "uid" : "6f7ac1134c3a97ed",
+        "parentUid" : "82834bcf0bc2adad3528e34dbb16bf2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603130122712,
+          "stop" : 1603130156667,
+          "duration" : 33955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "82834bcf0bc2adad3528e34dbb16bf2a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "script timeout\n                  (Session info: chrome=85.0.4183.121)",
+      "children" : [ {
+        "name" : "Should display a new pdf tab for print",
+        "uid" : "21f43946baa33898",
+        "parentUid" : "272f35f08a7e035bfe44012fb80e1793",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602172101657,
+          "stop" : 1602172248165,
+          "duration" : 146508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "272f35f08a7e035bfe44012fb80e1793"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

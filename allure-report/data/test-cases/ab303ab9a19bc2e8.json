@@ -1,0 +1,58 @@
+{
+  "uid" : "ab303ab9a19bc2e8",
+  "name" : "Should verify Google streetview",
+  "fullName" : "Verifying Google StreetView.Should verify Google streetview",
+  "historyId" : "9da8acd3b8d911a764f063c388558cec",
+  "time" : {
+    "start" : 1602171729801,
+    "stop" : 1602171761637,
+    "duration" : 31836
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying Google StreetView"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying Google StreetView"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify Google streetview"
+  }, {
+    "name" : "package",
+    "value" : "Verifying Google StreetView"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab303ab9a19bc2e8.json",
+  "parameterValues" : [ "chrome" ]
+}

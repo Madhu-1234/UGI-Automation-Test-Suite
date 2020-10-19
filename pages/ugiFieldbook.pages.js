@@ -12,7 +12,7 @@ class ugiFieldBookPages{
     get search() { return $('#searchButton') }
     get identifyButton() { return $('#identifyButton') }
     get streetView() { return $('#streetviewButton_label') }
-    get print() {return $('//*[@id="dijit_form_ComboButton_0_label"]') }
+    get print() {return $('//*[@id="printButton2_label"]') }
     get measure() {return $('#measureButton_label') }
     get homeBtn() {return $('//*[@id="HomeButton"]/div/div')}
     get project() {return $('//*[@id="id_UGIProj"]/a')}

@@ -9,11 +9,9 @@ describe("Verifying print functionality", function(){
         /*
         ***Validating new tab is displayed when user clicks on print
         */
-        ugiFieldbookPages.print.click()
         browser.pause(25000)
-        var windowHandles = browser.getWindowHandles()
-        console.log(windowHandles)
-        browser.switchToWindow(windowHandles[2])
+        assert.equal
+        ugiFieldbookPages.print.click()
         browser.saveFullPageScreen('PDFPrinted');
         expect(browser.checkFullPageScreen('PDFPrinted')).to.equal(0);
     })

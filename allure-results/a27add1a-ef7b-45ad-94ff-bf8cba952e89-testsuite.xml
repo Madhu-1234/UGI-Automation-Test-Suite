@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602002429394' stop='1602002429403'>
+    <name>Verifying basemap components</name>
+    <title>Verifying basemap components</title>
+    <test-cases>
+        <test-case start='1602002429397' status='pending' stop='1602002429397'>
+            <name>Should verify different components of the basemap</name>
+            <title>Should verify different components of the basemap</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

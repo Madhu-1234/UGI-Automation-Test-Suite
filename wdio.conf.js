@@ -130,21 +130,22 @@ exports.config = {
             autoSaveBaseline: true
             // ... more options
         }],
-        ['selenium-standalone', {
+       ['selenium-standalone', {
             logPath: 'logs',
             installArgs: {
                 drivers: {
-                    chrome: { version: '84.0.4147.30' },
+                    chrome: { version: '86.0.4240.22' },
                     firefox: { version: '0.26.0' }
                 }
             },
             args: {
                 drivers: {
-                    chrome: { version: '84.0.4147.30' },
+                    chrome: { version: '86.0.4240.22' },
                     firefox: { version: '0.26.0' }
                 }
             },
         }] 
+        
     ],
     
 

@@ -134,13 +134,13 @@ exports.config = {
             logPath: 'logs',
             installArgs: {
                 drivers: {
-                    chrome: { version: '84.0.4147.30' },
+                    chrome: { version: '86.0.4240.22' },
                     firefox: { version: '0.26.0' }
                 }
             },
             args: {
                 drivers: {
-                    chrome: { version: '84.0.4147.30' },
+                    chrome: { version: '86.0.4240.22' },
                     firefox: { version: '0.26.0' }
                 }
             },
@@ -364,7 +364,7 @@ exports.config = {
         var allure = require('allure-commandline');
 
         var reportError = new Error('Could not generate Allure report')
-        var generation = allure(['generate', 'allure-results', '--clean'])
+        var generation = allure(['generate', 'allure-results-Prod', '--clean'])
         //var generation1 = allure(['generate', 'allure', 'open'])
         return new Promise((resolve, reject) => {
             const generationTimeout = setTimeout(

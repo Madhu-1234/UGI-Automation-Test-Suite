@@ -1,114 +1,29 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "22752cf84e9ae2bd",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599853283446,
-        "stop" : 1599853358349,
-        "duration" : 74903
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Should display a new pdf tab for print",
-      "uid" : "e08bf213d4e8d9ac",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599854353380,
-        "stop" : 1599854389050,
-        "duration" : 35670
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
-    "name" : "0-4",
-    "children" : [ {
-      "name" : "Measure area, linear distance and location",
-      "uid" : "2bbfc8213bfa89f2",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599853732092,
-        "stop" : 1599853806984,
-        "duration" : 74892
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
-  }, {
-    "name" : "0-6",
-    "children" : [ {
-      "name" : "Should feature search and reverse geocode search",
-      "uid" : "cadccce4722ef51",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599853952615,
-        "stop" : 1599853977171,
-        "duration" : 24556
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
-  }, {
-    "name" : "0-7",
-    "children" : [ {
-      "name" : "Should verify Google streetview",
-      "uid" : "3c170d3e335d21e",
-      "parentUid" : "21aceb05e3618121b78af6a48c646d54",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599854082476,
-        "stop" : 1599854115407,
-        "duration" : 32931
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "21aceb05e3618121b78af6a48c646d54"
-  }, {
-    "name" : "0-1",
-    "children" : [ {
-      "name" : "Identify functionality for division locations",
-      "uid" : "b8f492d6e3e9cfa1",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599853497830,
-        "stop" : 1599853536413,
-        "duration" : 38583
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
+    "name" : "Should verify different components of the basemap",
+    "uid" : "8ca366478141242a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1603129952116,
+      "stop" : 1603129952117,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
   }, {
     "name" : "0-2",
     "children" : [ {
       "name" : "Should verify legend layer Work Order Points",
-      "uid" : "f1e749f080d40473",
+      "uid" : "c9de3e9f0c76b390",
       "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1599853589512,
-        "stop" : 1599853595549,
-        "duration" : 6037
+        "start" : 1602170615862,
+        "stop" : 1602170623185,
+        "duration" : 7323
       },
       "flaky" : false,
       "newFailed" : false,
@@ -116,39 +31,163 @@
     } ],
     "uid" : "880a094af3dffab161e2023284569d6f"
   }, {
-    "name" : "0-3",
+    "name" : "Should verify different components of the basemap",
+    "uid" : "18a1198515347120",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1602170144274,
+      "stop" : 1602170144274,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "0-0",
     "children" : [ {
-      "name" : "Login to testfieldbook",
-      "uid" : "8bb202978a7ecc29",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "name" : "Should verify different components of the basemap",
+      "uid" : "6f7ac1134c3a97ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1603130122712,
+        "stop" : 1603130156667,
+        "duration" : 33955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "16a9c291f718fd02",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1599853662302,
-        "stop" : 1599853676004,
-        "duration" : 13702
+        "start" : 1599820711475,
+        "stop" : 1599820782928,
+        "duration" : 71453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should display a new pdf tab for print",
+      "uid" : "21f43946baa33898",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1602172101657,
+        "stop" : 1602172248165,
+        "duration" : 146508
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "b755a79e149728f67460aea38b0710e0"
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
     "name" : "0-5",
     "children" : [ {
       "name" : "Should display a new pdf tab for print",
-      "uid" : "95341d0095bee045",
+      "uid" : "1beba009c17b97d8",
       "parentUid" : "6ea253441b78cd38797e932a74777a9c",
       "status" : "failed",
       "time" : {
-        "start" : 1599853865153,
-        "stop" : 1599853891544,
-        "duration" : 26391
+        "start" : 1602171392494,
+        "stop" : 1602171419156,
+        "duration" : 26662
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "6ea253441b78cd38797e932a74777a9c"
+  }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "Should feature search and reverse geocode search",
+      "uid" : "1fa952b91a66bfbb",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602171622649,
+        "stop" : 1602171642098,
+        "duration" : 19449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Identify functionality for division locations",
+      "uid" : "d59e40fd6064a5e9",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602170267618,
+        "stop" : 1602170341158,
+        "duration" : 73540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "Measure area, linear distance and location",
+      "uid" : "9f8b1d0373415550",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602171254888,
+        "stop" : 1602171340042,
+        "duration" : 85154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-7",
+    "children" : [ {
+      "name" : "Should verify Google streetview",
+      "uid" : "ab303ab9a19bc2e8",
+      "parentUid" : "21aceb05e3618121b78af6a48c646d54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602171729801,
+        "stop" : 1602171761637,
+        "duration" : 31836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "21aceb05e3618121b78af6a48c646d54"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "Login to testfieldbook",
+      "uid" : "9f488174e3627431",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1602171106563,
+        "stop" : 1602171107693,
+        "duration" : 1130
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
   } ],
   "name" : "timeline"
 }

@@ -1,0 +1,73 @@
+{
+  "uid" : "21f43946baa33898",
+  "name" : "Should display a new pdf tab for print",
+  "fullName" : "Verifying print functionality.Should display a new pdf tab for print",
+  "historyId" : "ec90ce4237d86e7c7f509185a75bbe87",
+  "time" : {
+    "start" : 1602172101657,
+    "stop" : 1602172248165,
+    "duration" : 146508
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "script timeout\n                  (Session info: chrome=85.0.4183.121)",
+  "statusTrace" : "script timeout\n                  (Session info: chrome=85.0.4183.121)\n                    at getErrorFromResponseBody (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Browser.runCommandWithHooks (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Browser.runCommandWithHooks (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Browser.wrapCommandFn (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Object.<anonymous> (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\helpers\\beforeScreenshot.js:75:32)\n                    at step (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\helpers\\beforeScreenshot.js:44:23)\n                    at Object.next (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\helpers\\beforeScreenshot.js:25:53)\n                    at C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\helpers\\beforeScreenshot.js:19:71\n                    at Object.beforeScreenshot [as default] (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\helpers\\beforeScreenshot.js:59:12)\n                    at C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\commands\\saveFullPageScreen.js:71:58\n                    at step (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\commands\\saveFullPageScreen.js:33:23)\n                    at Object.next (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\commands\\saveFullPageScreen.js:14:53)\n                    at C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\commands\\saveFullPageScreen.js:8:71\n                    at saveFullPageScreen (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver-image-comparison\\build\\commands\\saveFullPageScreen.js:44:12)\n                    at Browser.saveFullPageScreen (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Browser.next [as saveFullPageScreen] (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\utils\\build\\monad.js:119:27)\n                    at Context.<anonymous> (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\test\\print.test.js:14:17)\n                    at Context.executeSync (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display a new pdf tab for print"
+  }, {
+    "name" : "package",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1beba009c17b97d8",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1602171392494,
+        "stop" : 1602171419156,
+        "duration" : 26662
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "21f43946baa33898.json",
+  "parameterValues" : [ "chrome" ]
+}
