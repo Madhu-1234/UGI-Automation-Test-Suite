@@ -1,6 +1,7 @@
 
 npm run cleandir & ^
 npm run test & ^
+allure generate allure-results & ^
 xcopy /s /e /v /y "C:\Automated Testing\UGI-Automation-Test-Suite\allure-report" "\\aisuetst-flb002\C$\inetpub\wwwroot\UGIAutomationTestReport" & ^
 node utils/sendmail.js
 REM npm run allure-report & ^
