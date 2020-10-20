@@ -1,0 +1,74 @@
+{
+  "uid" : "3d536a061d7e231c",
+  "name" : "Should feature search and reverse geocode search",
+  "fullName" : "Verifying feature search and reverse geocode.Should feature search and reverse geocode search",
+  "historyId" : "decd639bc497542f82516f3cc13d98ad",
+  "time" : {
+    "start" : 1603198982316,
+    "stop" : 1603199044283,
+    "duration" : 61967
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying feature search and reverse geocode"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying feature search and reverse geocode"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should feature search and reverse geocode search"
+  }, {
+    "name" : "package",
+    "value" : "Verifying feature search and reverse geocode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd9e502c41ab6778",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602003407710,
+        "stop" : 1602003427329,
+        "duration" : 19619
+      }
+    }, {
+      "uid" : "45c28052c8a82b53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853952615,
+        "stop" : 1599853977171,
+        "duration" : 24556
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d536a061d7e231c.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -14,7 +14,7 @@ describe("Verifying basemap components", function(){
        
         //Validating google hybrid map screenshot
         ugiFieldbookPages.baseMap.click()
-        browser.pause(9000)
+        browser.pause(25000)
         ugiFieldbookPages.clickGoogleHybridMap();
         browser.saveFullPageScreen('googleHybirdMap');
         expect(browser.checkFullPageScreen('googleHybridMap')).to.equal(0);

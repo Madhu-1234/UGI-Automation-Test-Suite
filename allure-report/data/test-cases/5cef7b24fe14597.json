@@ -1,0 +1,127 @@
+{
+  "uid" : "5cef7b24fe14597",
+  "name" : "Should display a new pdf tab for print",
+  "fullName" : "Verifying print functionality.Should display a new pdf tab for print",
+  "historyId" : "ec90ce4237d86e7c7f509185a75bbe87",
+  "time" : {
+    "start" : 1603193065942,
+    "stop" : 1603193095264,
+    "duration" : 29322
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display a new pdf tab for print"
+  }, {
+    "name" : "package",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3c5607349f36926f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603192777709,
+        "stop" : 1603192803057,
+        "duration" : 25348
+      }
+    }, {
+      "uid" : "b9a149ce44a8f374",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603189034432,
+        "stop" : 1603189179253,
+        "duration" : 144821
+      }
+    }, {
+      "uid" : "275ebee4abf110dc",
+      "status" : "broken",
+      "statusDetails" : "script timeout\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1602174301539,
+        "stop" : 1602174447690,
+        "duration" : 146151
+      }
+    }, {
+      "uid" : "e41c6a4c15b26b46",
+      "status" : "broken",
+      "statusDetails" : "script timeout\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1602174029703,
+        "stop" : 1602174176068,
+        "duration" : 146365
+      }
+    }, {
+      "uid" : "40316bec3ad2d681",
+      "status" : "broken",
+      "statusDetails" : "script timeout\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1602173770691,
+        "stop" : 1602173917200,
+        "duration" : 146509
+      }
+    }, {
+      "uid" : "d47c8b447a5ba94b",
+      "status" : "failed",
+      "statusDetails" : "expected 98.17 to equal 0",
+      "time" : {
+        "start" : 1602003778089,
+        "stop" : 1602003856802,
+        "duration" : 78713
+      }
+    }, {
+      "uid" : "771d98d7dd5953d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599854353380,
+        "stop" : 1599854389050,
+        "duration" : 35670
+      }
+    }, {
+      "uid" : "3ca8f34d215bc269",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1599853865153,
+        "stop" : 1599853891544,
+        "duration" : 26391
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cef7b24fe14597.json",
+  "parameterValues" : [ "chrome" ]
+}

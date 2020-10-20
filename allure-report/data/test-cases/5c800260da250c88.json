@@ -1,0 +1,48 @@
+{
+  "uid" : "5c800260da250c88",
+  "name" : "Should verify different components of the basemap",
+  "fullName" : "Verifying basemap components.Should verify different components of the basemap",
+  "historyId" : "1e95d80086150cf7a3c1bff71050394",
+  "time" : {
+    "start" : 1602002429397,
+    "stop" : 1602002429397,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify different components of the basemap"
+  }, {
+    "name" : "package",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c800260da250c88.json",
+  "parameterValues" : [ ]
+}

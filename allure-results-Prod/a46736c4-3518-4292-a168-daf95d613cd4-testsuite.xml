@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603198709944' stop='1603198778885'>
+    <name>Verifying feature search and reverse geocode</name>
+    <title>Verifying feature search and reverse geocode</title>
+    <test-cases>
+        <test-case start='1603198709945' status='passed' stop='1603198778882'>
+            <name>Should feature search and reverse geocode search</name>
+            <title>Should feature search and reverse geocode search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

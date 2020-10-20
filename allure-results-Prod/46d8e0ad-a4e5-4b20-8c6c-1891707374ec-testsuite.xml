@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603193509428' stop='1603193589397'>
+    <name>Verifying basemap components</name>
+    <title>Verifying basemap components</title>
+    <test-cases>
+        <test-case start='1603193509432' status='passed' stop='1603193589387'>
+            <name>Should verify different components of the basemap</name>
+            <title>Should verify different components of the basemap</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

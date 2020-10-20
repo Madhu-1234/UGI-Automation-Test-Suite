@@ -47,6 +47,7 @@ class ugiFieldBookPages{
     get searchWindowClose() {return $('/html/body/div[12]/div[1]/div/a[2]/span')}
     get featureSearchDrpdown() {return $('//*[@id="featureSearchRow"]/div[1]/span')}
     get featureSearchFieldDrpdown() {return $('//*[@id="featureSearchRow"]/div[2]/span')}
+    get addressRadioBtn(){return $('//*[@id="addressButton"]')}
     get featureRadioBtn() {return $('//*[@id="featureRadionButton"]/div')}
     get reverseGeoCodeRadioBtn(){return $('//*[@id="reverseGeocodeButton"]')}
 
@@ -135,6 +136,7 @@ class ugiFieldBookPages{
         this.search.click()
         //this.searchBar.doubleClick()
         browser.pause(3000)
+        //this.searchBar.clearValue()
         this.searchBar.addValue(address)
         browser.pause(5000)
         this.searchButton_searchWindow.click()
@@ -216,8 +218,8 @@ class ugiFieldBookPages{
 
     
     reverseGeoCodeSearch(){
-        this.search.click()
-        browser.pause(3000)
+        //this.search.click()
+        //browser.pause(3000)
         this.reverseGeoCodeRadioBtn.click()
         browser.pause(2000)
        

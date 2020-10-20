@@ -1,0 +1,92 @@
+{
+  "uid" : "76d54dfea984e4c7",
+  "name" : "Should verify different components of the basemap",
+  "fullName" : "Verifying basemap components.Should verify different components of the basemap",
+  "historyId" : "fbccab2ccc5b32dbd3d28023643d20d3",
+  "time" : {
+    "start" : 1603188885223,
+    "stop" : 1603188964636,
+    "duration" : 79413
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify different components of the basemap"
+  }, {
+    "name" : "package",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "283bde9c8042ce27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603188734493,
+        "stop" : 1603188814185,
+        "duration" : 79692
+      }
+    }, {
+      "uid" : "456928b48f05663",
+      "status" : "failed",
+      "statusDetails" : "expected 0.72 to equal 0",
+      "time" : {
+        "start" : 1603188602973,
+        "stop" : 1603188651907,
+        "duration" : 48934
+      }
+    }, {
+      "uid" : "7dda0c7997bc8b06",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1601915825894,
+        "stop" : 1601915826464,
+        "duration" : 570
+      }
+    }, {
+      "uid" : "7411f5115cd1dc9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599853283446,
+        "stop" : 1599853358349,
+        "duration" : 74903
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76d54dfea984e4c7.json",
+  "parameterValues" : [ "chrome" ]
+}

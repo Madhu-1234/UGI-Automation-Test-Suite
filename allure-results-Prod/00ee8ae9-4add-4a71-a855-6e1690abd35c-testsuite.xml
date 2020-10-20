@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603195505542' stop='1603195553431'>
+    <name>Verifying feature search and reverse geocode</name>
+    <title>Verifying feature search and reverse geocode</title>
+    <test-cases>
+        <test-case start='1603195505543' status='broken' stop='1603195553430'>
+            <name>Should feature search and reverse geocode search</name>
+            <title>Should feature search and reverse geocode search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=86.0.4240.75)</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=86.0.4240.75)
+                    at getErrorFromResponseBody (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver\build\utils.js:121:10)
+                    at WebDriverRequest._request (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriver\build\request.js:149:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.runCommandWithHooks (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at ugiFieldBookPages.reverseGeoCodeSearch (C:\Users\Alok's\Documents\UGI Automated testscripts\pages\ugiFieldbook.pages.js:223:37)
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\UGI Automated testscripts\test\search.test.js:29:27)
+                    at Context.executeSync (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

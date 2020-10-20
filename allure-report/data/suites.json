@@ -4,13 +4,13 @@
     "name" : "Verifying identify functionality",
     "children" : [ {
       "name" : "Identify functionality for division locations",
-      "uid" : "d59e40fd6064a5e9",
+      "uid" : "878f07260eba53e7",
       "parentUid" : "c8cd1830d0f80ba69ff7b2f185c57b1c",
       "status" : "passed",
       "time" : {
-        "start" : 1602170267618,
-        "stop" : 1602170341158,
-        "duration" : 73540
+        "start" : 1599853497830,
+        "stop" : 1599853536413,
+        "duration" : 38583
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
     "name" : "Verifying legend components",
     "children" : [ {
       "name" : "Should verify legend layer Work Order Points",
-      "uid" : "c9de3e9f0c76b390",
+      "uid" : "c9acd9d803b54dc2",
       "parentUid" : "129208746e123446f08aad9b839d13dc",
       "status" : "passed",
       "time" : {
-        "start" : 1602170615862,
-        "stop" : 1602170623185,
-        "duration" : 7323
+        "start" : 1599853589512,
+        "stop" : 1599853595549,
+        "duration" : 6037
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
     "name" : "Validate UGI project card selected",
     "children" : [ {
       "name" : "Login to testfieldbook",
-      "uid" : "9f488174e3627431",
+      "uid" : "e789e91e829573ef",
       "parentUid" : "a452b5fc6befbbe2f3ab58a799200869",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1602171106563,
-        "stop" : 1602171107693,
-        "duration" : 1130
+        "start" : 1599853662302,
+        "stop" : 1599853676004,
+        "duration" : 13702
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,13 +55,13 @@
     "name" : "Verifying measure functionality",
     "children" : [ {
       "name" : "Measure area, linear distance and location",
-      "uid" : "9f8b1d0373415550",
+      "uid" : "dc9e76ef4f1df817",
       "parentUid" : "0d9b83045f75af53c0aee1ac892bc661",
       "status" : "passed",
       "time" : {
-        "start" : 1602171254888,
-        "stop" : 1602171340042,
-        "duration" : 85154
+        "start" : 1599853732092,
+        "stop" : 1599853806984,
+        "duration" : 74892
       },
       "flaky" : false,
       "newFailed" : false,
@@ -69,33 +69,16 @@
     } ],
     "uid" : "0d9b83045f75af53c0aee1ac892bc661"
   }, {
-    "name" : "Verifying feature search and reverse geocode",
-    "children" : [ {
-      "name" : "Should feature search and reverse geocode search",
-      "uid" : "1fa952b91a66bfbb",
-      "parentUid" : "e82cd6f4646f16e1caba116345bc024e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1602171622649,
-        "stop" : 1602171642098,
-        "duration" : 19449
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "e82cd6f4646f16e1caba116345bc024e"
-  }, {
     "name" : "Verifying Google StreetView",
     "children" : [ {
       "name" : "Should verify Google streetview",
-      "uid" : "ab303ab9a19bc2e8",
+      "uid" : "3963f44e9082ecc1",
       "parentUid" : "74ec1f60176fe72496fdc9e349158c0a",
       "status" : "passed",
       "time" : {
-        "start" : 1602171729801,
-        "stop" : 1602171761637,
-        "duration" : 31836
+        "start" : 1599854082476,
+        "stop" : 1599854115407,
+        "duration" : 32931
       },
       "flaky" : false,
       "newFailed" : false,
@@ -103,16 +86,46 @@
     } ],
     "uid" : "74ec1f60176fe72496fdc9e349158c0a"
   }, {
+    "name" : "Verifying basemap components",
+    "children" : [ {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "5c800260da250c88",
+      "parentUid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1602002429397,
+        "stop" : 1602002429397,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "76d54dfea984e4c7",
+      "parentUid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603188885223,
+        "stop" : 1603188964636,
+        "duration" : 79413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "aa984c3bd53fcbd95f6f3d9c825624d7"
+  }, {
     "name" : "Verifying print functionality",
     "children" : [ {
       "name" : "Should display a new pdf tab for print",
-      "uid" : "21f43946baa33898",
+      "uid" : "5cef7b24fe14597",
       "parentUid" : "7e10cd9390f7ff384d05e7ba86ebbd7d",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1602172101657,
-        "stop" : 1602172248165,
-        "duration" : 146508
+        "start" : 1603193065942,
+        "stop" : 1603193095264,
+        "duration" : 29322
       },
       "flaky" : false,
       "newFailed" : false,
@@ -120,35 +133,22 @@
     } ],
     "uid" : "7e10cd9390f7ff384d05e7ba86ebbd7d"
   }, {
-    "name" : "Verifying basemap components",
+    "name" : "Verifying feature search and reverse geocode",
     "children" : [ {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "8ca366478141242a",
-      "parentUid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
-      "status" : "skipped",
+      "name" : "Should feature search and reverse geocode search",
+      "uid" : "3d536a061d7e231c",
+      "parentUid" : "e82cd6f4646f16e1caba116345bc024e",
+      "status" : "passed",
       "time" : {
-        "start" : 1603129952116,
-        "stop" : 1603129952117,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "6f7ac1134c3a97ed",
-      "parentUid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
-      "status" : "failed",
-      "time" : {
-        "start" : 1603130122712,
-        "stop" : 1603130156667,
-        "duration" : 33955
+        "start" : 1603198982316,
+        "stop" : 1603199044283,
+        "duration" : 61967
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "aa984c3bd53fcbd95f6f3d9c825624d7"
+    "uid" : "e82cd6f4646f16e1caba116345bc024e"
   } ],
   "name" : "suites"
 }

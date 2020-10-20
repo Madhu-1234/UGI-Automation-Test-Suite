@@ -1,0 +1,58 @@
+{
+  "uid" : "dc9e76ef4f1df817",
+  "name" : "Measure area, linear distance and location",
+  "fullName" : "Verifying measure functionality.Measure area, linear distance and location",
+  "historyId" : "a02ccda141ec04df4eda39cf4b3329a2",
+  "time" : {
+    "start" : 1599853732092,
+    "stop" : 1599853806984,
+    "duration" : 74892
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying measure functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying measure functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Measure area, linear distance and location"
+  }, {
+    "name" : "package",
+    "value" : "Verifying measure functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc9e76ef4f1df817.json",
+  "parameterValues" : [ "chrome" ]
+}

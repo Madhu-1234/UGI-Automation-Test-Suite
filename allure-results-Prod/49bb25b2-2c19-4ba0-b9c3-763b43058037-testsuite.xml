@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603198367210' stop='1603198422661'>
+    <name>Verifying feature search and reverse geocode</name>
+    <title>Verifying feature search and reverse geocode</title>
+    <test-cases>
+        <test-case start='1603198367212' status='broken' stop='1603198422658'>
+            <name>Should feature search and reverse geocode search</name>
+            <title>Should feature search and reverse geocode search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>logo is not defined</message>
+                <stack-trace>ReferenceError: logo is not defined
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\UGI Automated testscripts\test\search.test.js:31:9)
+                    at Context.executeSync (C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\UGI Automated testscripts\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

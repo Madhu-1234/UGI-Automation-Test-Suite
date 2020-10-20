@@ -1,0 +1,58 @@
+{
+  "uid" : "7dda0c7997bc8b06",
+  "name" : "Should verify different components of the basemap",
+  "fullName" : "Verifying basemap components.Should verify different components of the basemap",
+  "historyId" : "fbccab2ccc5b32dbd3d28023643d20d3",
+  "time" : {
+    "start" : 1601915825894,
+    "stop" : 1601915826464,
+    "duration" : 570
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=85.0.4183.121)",
+  "statusTrace" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=85.0.4183.121)\n                    at getErrorFromResponseBody (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Browser.$ (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:19:15)\n                    at async Browser.runCommandWithHooks (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Browser.runCommandWithHooks (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Browser.wrapCommandFn (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at global.$ (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\runner\\build\\index.js:189:36)\n                    at ugiFieldBookPages.get homeBtn [as homeBtn] (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\pages\\ugiFieldbook.pages.js:17:27)\n                    at Context.<anonymous> (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\test\\basemap.test.js:9:27)\n                    at Context.executeSync (C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Alok's\\Documents\\UGI Automated testscripts\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify different components of the basemap"
+  }, {
+    "name" : "package",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7dda0c7997bc8b06.json",
+  "parameterValues" : [ "chrome" ]
+}

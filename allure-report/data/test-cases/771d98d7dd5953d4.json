@@ -1,0 +1,56 @@
+{
+  "uid" : "771d98d7dd5953d4",
+  "name" : "Should display a new pdf tab for print",
+  "fullName" : "Verifying print functionality.Should display a new pdf tab for print",
+  "historyId" : "ec90ce4237d86e7c7f509185a75bbe87",
+  "time" : {
+    "start" : 1599854353380,
+    "stop" : 1599854389050,
+    "duration" : 35670
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display a new pdf tab for print"
+  }, {
+    "name" : "package",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "771d98d7dd5953d4.json",
+  "parameterValues" : [ "chrome" ]
+}
